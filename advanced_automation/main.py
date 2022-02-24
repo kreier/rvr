@@ -13,7 +13,7 @@ while True:
         rvr.set_all_leds(0,0,0)
         time.sleep(0.1)
         print(sensor_distance)
-        if sensor_distance < 10 :
+        if sensor_distance < 200 :
             rvr.set_all_leds(255,0,0)
         else:
             rvr.set_all_leds(0,255,0)
