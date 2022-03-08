@@ -2,9 +2,11 @@
 
 ## Connection
 
-The assignment of the pins is best documented in a picture
+The assignment of the pins is best documented in a picture.
 
 ![Connector PS2](connector_ps2.jpg)
+
+The blackpill can't use the pins A7 (MOSI), A6 (MISO1), A5 (SCK1) and A4 (NSS1) for SPI communication with the PS2 controller, since they are used for the flash chip (see [tannewt comment on githubhot.com](https://githubhot.com/repo/adafruit/circuitpython/issues/5134))
 
 | Function | Pin |          |
 |----------|-----|----------|
