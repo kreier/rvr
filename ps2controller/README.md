@@ -14,10 +14,10 @@ The blackpill can't use the pins A7 (MOSI), A6 (MISO1), A5 (SCK1) and A4 (NSS1) 
 | RX       | A3  |          |
 | Trigger  | B1  |          |
 | Echo     | B0  |          |
-| MOSI1    | A7  | COMMAND |
-| MISO1    | A6  | DATA     |
-| SCK1     | A5  | CLOCK    |
-| NSS1     | A4  | ATT      |
+| MOSI2    | B15 | COMMAND |
+| MISO2    | B14 | DATA     |
+| SCK2     | B13 | CLOCK    |
+| NSS2     | B12 | ATT      |
 | SCL      | B6  |          |
 | SDA      | B7  |          |
 | LED      | C13 |          |
