@@ -1,5 +1,32 @@
 # PS2 controller
 
+## Connection
+
+The assignment of the pins is best documented in a picture
+
+![Connector PS2](connector_ps2.jpg)
+
+| Function | Pin |          |
+|----------|-----|----------|
+| TX       | A2  |          |
+| RX       | A3  |          |
+| Trigger  | B1  |          |
+| Echo     | B0  |          |
+| MOSI1    | A7  | COMMAND |
+| MISO1    | A6  | DATA     |
+| SCK1     | A5  | CLOCK    |
+| NSS1     | A4  | ATT      |
+| SCL      | B6  |          |
+| SDA      | B7  |          |
+| LED      | C13 |          |
+| KEY      | A0  |          |
+
+## Circuitpython library
+
+I copied the edition from shallwe and tried to use it with a Blackpill.
+
+## History
+
 Since the PS2 controller is available as a wireless version for small money, many projects started to use it. The pins and protocol has been documented to by these people:
 
 - 1998 gamesx.com [protocol and pin definition](https://gamesx.com/controldata/psxcont/psxcont.htm)
@@ -12,13 +39,3 @@ Since the PS2 controller is available as a wireless version for small money, man
 - 2020 shallwe [Library for micropython](https://github.com/shallwe/micropython_ps2)
 - 2020 [Running on a Raspberry Pi](https://www.programmersought.com/article/71065949952/)
 
-
-## Connection
-
-The assignment of the pins is best documented in a picture
-
-![Connector PS2](connector_ps2.jpg)
-
-## Circuitpython library
-
-I copied the edition from shallwe and tried to use it with a Blackpill.
